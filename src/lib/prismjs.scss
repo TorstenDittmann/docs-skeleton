@@ -1,0 +1,41 @@
+code,
+pre {
+	&[class*='language-'] {
+		color: #fcfcff;
+		text-shadow: none;
+		font-family: 'Source Code Pro';
+
+		body.theme-light & {
+			color: #373b4d;
+		}
+	}
+	::selection,
+	&::selection {
+		text-shadow: none;
+		background: #b3d4fc;
+	}
+}
+
+body {
+	--shiki-color-text: #fcfcff;
+	--shiki-color-background: hsl(var(--p-box-background-color));
+	--shiki-token-constant: #fdc584;
+	--shiki-token-string: #fcfcff;
+	--shiki-token-comment: #868ea3;
+	--shiki-token-keyword: #cbb1fc;
+	--shiki-token-parameter: #fdc584;
+	--shiki-token-function: #ffa1ce;
+	--shiki-token-string-expression: #fdc584;
+	--shiki-token-punctuation: #fcfcff;
+	--shiki-token-link: #fcfcff;
+
+	&.theme-light {
+		--shiki-color-text: #373b4d;
+		--shiki-token-punctuation: #373b4d;
+		--shiki-token-string-expression: #e49545;
+		--shiki-token-constant: #e49545;
+		--shiki-token-string: #373b4d;
+		--shiki-token-keyword: #6a6af7;
+		--shiki-token-function: #f02e7f;
+	}
+}
