@@ -26,8 +26,6 @@ Note that there is also a [Cheatsheet specific to Markdown Here](./Markdown-Here
 [Line Breaks](#lines)
 [YouTube Videos](#videos)
 
-<a name="headers"></a>
-
 ## Headers
 
 # H1
@@ -42,24 +40,17 @@ Note that there is also a [Cheatsheet specific to Markdown Here](./Markdown-Here
 
 ###### H6
 
-
-<a name="emphasis"></a>
-
 ## Emphasis
 
 Strong emphasis, aka bold, with **asterisks** or **underscores**.
 
 Combined emphasis with **asterisks and _underscores_**.
 
-<a name="lists"></a>
-
 ## Lists
 
 - Lorem
 - Ipsum
 - Dolor
-
-<a name="code"></a>
 
 ## Code and Syntax Highlighting
 
